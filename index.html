@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="img/chmury.jpg" alt="chmury">
+            <figcaption class="fig">
+                <h1>Twoja pogoda</h1>
+                <form>
+                    <input type="text" id="myInput" placeholder="szukaj">
+                </form>
+            </figcaption>
+        </figure>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th><i class="fas fa-city"></i>Miasto</th>
+                <th><i class="fas fa-thermometer-half"></i>Temperatura</th>
+                <th><i class="fas fa-bars"></i>Ciśnienie</th>
+                <th><i class="fas fa-wind"></i>Wiatr</th>
+                <th><i class="fas fa-tint"></i>Wilgotność</th>
+                <th><i class="far fa-calendar-alt"></i>Data</th>
+            </tr>
+        </thead>
+        <tbody id="pogoda"></tbody>
+    </table>
+
+    <footer>
+        <p>Contact information: <a href="mailto:konrad228@op.pl"></a>konrad228@op.pl</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="jquery/main.js"></script>
+
+</body>
